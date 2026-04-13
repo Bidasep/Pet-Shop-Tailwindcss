@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Pet shop</title>
+</head>
+
+<body class="">
+    <header>
+
+        <div
+            class="bg-linear-to-t from-amber-500 to-emerald-700  flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg shadow-amber-600/90">
+            <img src="./img/logo2.png" class=" rounded-xl w-full sm:w-64 " width="300" height="300">
+
+
+            <h1 class="font-Lavishly text-5xl  text-black text-center lg:text-9xl shadow-lg shadow-amber-600/90 mx-8">
+                Acessórios
+                para seu Pet</h1>
+
+            <nav class="grid-cols-2 text-2xl flex md:flex-col italic gap-4 2xl:text-8xl">
+
+                <ul
+                    class="text-2xl text-blue-700 grid grid-cols-2 align-bottom md:flex md:flex-col  gap-1 justify-items-center rounded-b-lg 2xl:text-5xl 2xl:gap-4">
+                    <li>
+                        <a class="  rounded-b-lg  text-blue-700 px-4 py-2 rounded-lg cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500 " href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="   rounded-b-lg  text-blue-700 px-4 py-2 rounded-lg cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500" href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a class="rounded-b-lg  text-blue-700 px-4 py-2 rounded-lg cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500" href="depoimentos.html">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a class="   rounded-b-lg  text-blue-700 px-4 py-2 rounded-lg cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500" href="contato.html">Contato</a>
+                    </li>
+                    <li>
+                        <a class="   rounded-b-lg  text-blue-700 px-4 py-2 rounded-lg cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500" href="Sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <!-- MAIN SECTION -->
+
+    <section class="bg-[url('/img/Back2.png')] bg-cover bg-center bg-no-repeat h-screen ">
+
+        <h1
+            class="text-3xl font-Lavishly  text-black text-center  sm:text-7xl 2xl:text-9xl font-bold  ">
+            Fale com a gente</h1>
+
+            
+        <div class="  flex justify-center items-center " >
+
+            <form class="flex flex-col bg-pink-500 opacity-80 items-center border-4 border-double rounded-xl border-cyan-500  w-full max-w-150  2xl:max-w-250  h-full 2xl:max-h-250 text-center ">
+                <label for="Nome">Nome</label>
+                <input class="  border-2 rounded-lg bg-cyan-500 border-cyan-500 w-full max-w-96  " type="text" id="nome" name="nome" placeholder="Digite seu Nome" required>
+
+
+                <label for="email">E-mail</label> 
+                <input class=" w-full max-w-96 border-2 rounded-lg bg-cyan-500 border-cyan-500" type="email" id="email" name="email " placeholder="Digite seu E-mail" required>
+                
+
+                <label for="mensagem">Mensagem:</label> 
+
+                <textarea name="mensagem" class="border-2  rounded-lg bg-cyan-500 border-cyan-500 " cols="50" rows="5" placeholder="Digite aqui">
+                </textarea>
+                
+
+                <button class="bg-cyan-500 font-bold text-blue-700  border-2 text-3xl w-full mb-4 max-w-110 md:max-w-48 mt-3 px-4 py-2 cursor-pointer rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500" type="submit" id="enviar">Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="bg-emerald-700 text-center flex flex-col items-center 2xl:text-3xl text-white">
+            <p>Tecnologias Utilizadas</p>
+            <img src="./img/html-css-tailwind-course-banner.webp" alt="" width="150" height="350" srcset="">
+            <p>Lola Pet Shop todos os direitos reservados &trade;</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<!--     <section class="bg-[url('/img/Back2.png')] bg-cover bg-center bg-no-repeat h-screen ">
+
+        <h1
+            class="text-3xl font-Lavishly  text-black text-center  sm:text-7xl 2xl:text-9xl font-bold  ">
+            Fale com a gente</h1>
+
+            
+        <div class=" flex text-3xl justify-center items-center  " >
+
+            <form class="flex flex-col    bg-pink-500 opacity-80 items-center border-4 border-double rounded-xl border-cyan-500 w-full max-w-150 2xl:max-w-250  h-full 2xl:max-h-250 text-center font-bold ">
+                <label for="Nome">Nome</label>
+                <input class="border-2 rounded-xl flex border-cyan-500 focus:border-pink-600 " type="text" id="nome" name="nome" placeholder="Digite seu Nome" required>
+
+
+                <label for="email">E-mail</label> 
+                <input class="border-2 rounded-xl border-cyan-500" type="email" id="email" name="email " placeholder="Digite seu E-mail" required>
+                
+
+                <label for="mensagem">Mensagem:</label> 
+
+                <textarea name="mensagem" class="border-2 rounded-xl border-cyan-500 " cols="20" rows="5" placeholder="Digite aqui">
+                </textarea>
+                
+
+                <button class="bg-cyan-500 w-full mb-4 max-w-110 md:max-w-48 mt-3 text-white px-4 py-2 cursor-pointer rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-amber-500" type="submit" id="enviar">Enviar</button>
+            </form>
+
+        </div>
+    </section> -->
